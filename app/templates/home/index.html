@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+{% block body %}
+    <!--Welcome Section Start-->
+    <section id="banner" class="wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="block">
+                        <img class="app-img img-responsive" src="{{url_for('static', filename='images/app.png')}}" alt="">
+                    </div>      
+                </div>
+                <div class="col-md-6 col-md-offset-1 col-sm-6">
+                    <div class="block">
+                        <h1>Welcome to our Beautiful, simple and easy to use App Plus!</h1>
+                        <p> Discover how our app can simplify your daily tasks and provide you with a seamless user experience.
+                            Join our community today and be a part of something special.</p>
+                        <ul class="download-btn">
+                            <li><a href="https://www.apple.com/store" class="btn btn-default btn-apple" target="_blank"> <i class="fa fa-apple"></i>App store</a></li>
+                            <li><a href="https://play.google.com/store/games?pli=1" class="btn btn-default btn-andriod" target="_blank"><i class="fa fa-android"></i>Play Store</a></li>
+                            <li><a href="https://apps.microsoft.com/store/apps" class="btn btn-default btn-windows" target="_blank"><i class="fa fa-windows"></i>Windows Store</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Welcome Section End-->
+    <!--Service Section Start-->
+    <section id="service">
+        <div class="container">
+            <div class="service-wrapper">
+                <h2 class="title">Our Services</h2><br>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="block wow fadeInRight" data-wow-delay="1s">
+                            <div class="icon">
+                                <i class="fa fa-desktop"></i> 
+                            </div>
+                            <h3>Fully Customizable</h3>
+                            <p>Our app can be easily customized to suit your individual needs and preferences.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="block wow fadeInRight" data-wow-delay="1.3s">
+                            <div class="icon">
+                                <i class="fa  fa-paper-plane"></i>
+                            </div>
+                            <h3>Gorgeous design</h3>
+                            <p>Our app features a visually stunning design that is sure to impress.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="block wow fadeInRight" data-wow-delay="1.6s">
+                            <div class="icon">
+                                <i class="fa  fa-file-text"></i>
+                            </div>
+                            <h3>Well documented</h3>
+                            <p>Our app comes with comprehensive documentation to help you easily navigate and utilize all of its features.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="block wow fadeInRight" data-wow-delay="1.9s">
+                            <div class="icon">
+                                <i class="fa  fa-laptop"></i>
+                            </div>
+                            <h3>Responsive Design</h3>
+                            <p>Our app is designed to be highly responsive across all devices and screen sizes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Service Section End-->
+    <!--Feature Section Start-->
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
+                    <h2 class="title">Our Focused on Feature</h2>
+                    <div class="feature-item">
+                        <div class="media">
+                            <div class="pull-left icon" >
+                                <i class="fa fa-paint-brush"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Reliable and Secure Platform</h4>
+                                <p>We use the latest encryption technologies and have strict data privacy policies to ensure a secure and reliable platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="media">
+                            <div class="pull-left icon" >
+                                <i class="fa fa-qrcode"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Everything is perfectly orgainized</h4>
+                                <p>We maintain a well-structured approach to everything we do for improved efficiency and error reduction.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="media">
+                            <div class="pull-left icon" >
+                                <i class="fa fa-recycle"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rapid customer support</h4>
+                                <p>We provide fast and efficient customer support 24/7, utilizing advanced tools and technologies to ensure a seamless experience for our users.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
+                    <div class="block">
+                        <img class="img-responsive" src="{{url_for('static', filename='images/featured-app.png')}}"  alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Feature Section End-->
+    <!--Utility-1 Section Start-->
+    <section id="utility">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                    <img class="img-responsive" src="{{url_for('static', filename='images/mockup.png')}}" alt="">
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay=".8s">
+                    <div class="block">
+                        <h2>Amazing Compatibility</h2>
+                        <p>Our platform is highly compatible with a wide range of devices and software, ensuring that 
+                            our users can access our services seamlessly. We utilize the latest technologies and standards 
+                            to ensure compatibility, and our team of experts continuously tests and optimizes our platform for maximum performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Utility-1 Section End-->
+    <!--Utility-2 Section Start-->
+    <section id="utility-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
+                    <div class="block">
+                        <h2>Remarkable Features</h2>
+                        <p>
+                            Our platform offers a variety of exceptional features that set us apart from the competition. Our team of experts has carefully 
+                            designed and developed these features to meet the unique needs and preferences of our users. We regularly update and improve our
+                            features to ensure that our platform remains innovative and useful for our users.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
+                    <img class="img-responsive" src="{{url_for('static', filename='images/app-screen.png')}}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Utility-2 Section End-->
+    <!--Subscribe Section Start-->
+    <section id="subscribe" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInDown" data-wow-delay=".8s">
+                    <div class="block">
+                        <div class="title text-center">
+                            <h2>Stay Connected</h2>
+                            <p>You can subscribe to us to stay up-to-date with our latest news and updates!</p>
+                        </div>
+                        <form class="form-inline text-center col-sm-12 col-xs-12" role="form" name="contactForm" onsubmit="return validateForm()" action="{{ url_for('greeting_page') }}" method="post">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="signup-form" placeholder="Enter your name">
+                                <div id="nameErr" class="error"></div><br>
+                                <input type="text" name="email" class="form-control" id="signup-form" placeholder="Enter your email">
+                                <div id="emailErr" class="error"></div><br>
+                            </div>
+                            <div>
+                                <input type="submit" class="btn btn-default btn-signup">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Subscribe Section End-->
+{% endblock %}
